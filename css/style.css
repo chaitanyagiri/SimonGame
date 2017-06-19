@@ -1,0 +1,93 @@
+body{
+  background-color:#7F8C8D;
+}
+.info{
+  font-family: 'Roboto Slab', serif;
+  color:black;
+  font-size:3em;
+   margin-top: 1cm;
+}
+a,a:hover{
+  text-decoration:none;
+  color:black;
+}
+.box {
+  margin-top: 2cm;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10cm;
+  width: 600px;
+  border:5px solid black;
+  border-radius:100px;
+  background-color: black;
+  
+}
+.one {
+  border-top-left-radius: 100px;
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: blue;
+}
+.one:active{
+  background-color: black;
+}
+.two {
+  border-top-right-radius: 100px;
+  width: 50%;
+  height: 50%;
+  float: right;
+  background-color: red;
+}
+.two:active{
+  background-color: black;
+}
+.four{
+  border-bottom-right-radius: 100px;
+  width: 50%;
+  height: 50%;
+  float: right;
+  background-color: green;
+}
+.four:active{
+  background-color: black;
+}
+.three{
+  border-bottom-left-radius: 100px;
+  width: 50%;
+  height: 50%;
+  float: left;
+  background-color: yellow;
+}
+.three:active{
+  background-color: black;
+}
+.circle{
+  width: 300px;
+  height: 5cm;
+  border-radius:300px;
+  position: absolute;
+  background-color:black;
+  margin-left:150px;
+  margin-top:2.5cm;
+}
+.wrapper{
+  font-family: 'Roboto Slab', serif;
+  color:white;
+  margin-top:0.5cm;
+}
+.lgreen{
+  opacity:0.5;
+}
+.lblue{
+  opacity:0.5;
+}
+.lred{
+  opacity:0.5;
+}
+.lyellow{
+  opacity:0.5;
+}
+bla{
+box-shadow: 0 0 24px inset;
+}
